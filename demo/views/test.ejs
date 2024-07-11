@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <%- include('head'); %>
+  </head>
+
+  <body>
+    <header><%- include('header'); %></header>
+
+    <main>
+      <h1>This is great</h1>
+      <p>Welcome to templating using EJS</p>
+
+      <h2>Variable</h2>
+      <p><%= tagline %></p>
+
+      <ul>
+        <% mascots.forEach(function(mascot) { %>
+          <li>
+            <strong><%= mascot.name %></strong>
+            representing <%= mascot.organization %>,
+            born <%= mascot.birth_year %>
+          </li>
+        <% }); %>
+      </ul>
+    </main>
+  </body>
+
+  <footer><%- include('footer'); %></footer>
+</html>

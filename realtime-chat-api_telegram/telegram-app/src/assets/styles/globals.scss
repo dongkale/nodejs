@@ -1,0 +1,24 @@
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+@import '@fontsource/rubik';
+
+:root {
+  --text-purple: #7e98df;
+  --text-black: #232323;
+  --text-gray: #848484;
+  --text-white: #ffffff;
+  --secondary-bg: #eaeaea;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
