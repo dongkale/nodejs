@@ -1,0 +1,23 @@
+# NPM
+node_modules
+npm-debug.log
+package-lock.json
+yarn.lock
+
+# WebStorm user-specific
+.idea/workspace.xml
+.idea/tasks.xml
+
+# VSCode user-specific
+.vscode
+
+# Generate data
+.eslintcache
+coverage
+dist
+output
+test
+*.tgz
+.nyc_output
+doc/*
+!doc/gltf.png
