@@ -546,6 +546,8 @@ async function main() {
 
   // console.log(r3);
 
+  // https://forum.freecodecamp.org/t/load-local-text-file-with-js/83063/7
+  // https://www.clouddefense.ai/code/javascript/example/archiver
   const r4 = await archiveDirToZip(
     "output/models/image-01",
     "output/models/image-01/temp.zip",
