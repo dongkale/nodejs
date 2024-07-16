@@ -35,3 +35,6 @@ https: app.use("/gltf_models", express.static(networkDrivePath));
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
 });
+
+// file upload, download
+// https://javascript.plainenglish.io/uploading-files-using-multer-on-server-in-nodejs-and-expressjs-5f4e621ccc67
